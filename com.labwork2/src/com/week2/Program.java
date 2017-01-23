@@ -7,7 +7,7 @@ public class Program {
 		Utilities.display(obj.div(2, 5));
 		Utilities.display(obj.mul(2, 5));
 		
-		ICalculator obj2 = new Scientific(); // Holding a child class in a base class shows only the parent method.
+		ICalculator obj2 = new Scientific(); // Behavior of a parent using a child obj
 		Utilities.display(obj2.add(2, 5));
 		Utilities.display(obj2.sub(2, 5));
 		Utilities.display(obj2.div(2, 5));
